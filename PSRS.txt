@@ -1,0 +1,44 @@
+
+Title:
+System Requirement Specification for Online Ticket Booking System
+   
+
+Objective:
+         Online Ticket Booking System is a Web-based application that provides a single platform of ticket booking to ens users and aims to provide user friendly environment for 
+ booking tickets of Trains,Buses,Airlines
+ 
+
+
+Definitions :
+OTBS:Online Ticket Booking System
+GA :Geographical Area
+
+
+Functional Requierments:
+1. User Registration: user will be able to create account by providing correct email and password 
+                   in case if any anonoymous user found then system will revert it 
+                     back to login page  
+
+2.Searching tickets: user will be able to search tickets according to their GA
+
+3.Ticket Booking :user should book tickets before 1 hour of the dispach time 
+
+4.Online payment : The system should provide secure payment gateway ,like e-wallet,net banking etc.
+
+5.Ticket Cancellation : user should cancel their ticket before one hour of dispatch time 
+                     
+                      
+
+Non-functional Requirements:
+1.Security: -OTBS maintains internally secured datastructure  to constantly saving and updating registered
+                Customers data for to provide end to end security
+
+2. Performance :The system shuld able to handle concurrent user request to avoid load
+
+3.Maintainability : The system shuld able to maintain and supports future enhancements 
+
+4:Reliability : The system shuld be avialble 24/7 to users 
+
+5:Scalability: The system shuld able to handle growabl number of users 
+6:User Friendly : system will provide user friendly environment to customers 
+7. Compatability : The system should be comaptible with many web browsers 

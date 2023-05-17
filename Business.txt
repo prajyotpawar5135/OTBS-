@@ -1,0 +1,16 @@
+business entities 
+
+user :
+attribute : user name ,user id ,user location 
+relationship: one to many with task 
+
+ticket :
+attribute : ticket id ,price ,ticket name 
+relationship: one to one with user 
+
+task:
+attribute : task id ,task name 
+relationship: many to many with user 
+
+
+
